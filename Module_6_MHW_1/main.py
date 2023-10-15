@@ -76,7 +76,7 @@ def main(folder: Path):
             print(f'Error during remove folder {folder}')
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":#Точка входу
     if len(sys.argv) > 1:
         folder_process = Path(sys.argv[1])
         main(folder_process.resolve())
